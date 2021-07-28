@@ -31,7 +31,46 @@ Esta versión de la Licencia Pública General Menor de GNU incorpora los términ
 
 ## Descripción general del proyecto
 
-Es una plataforma educativa para los estudiantes interesados en el ingreso a la Universdad en el Ecuador, evaluadando mediante examenes en las areas de conocimiento de Matematica, Fisica, Quimica, Sociales y Lenguaje. Dando a conocer a los estudiantes la calificaciòn con sus respectivos aciertos y fallos en cada pregunta, para que puedan reforzarlo en caso que lo requiera por su cuenta o medainte un curso sugerido.
+Se busca desarrollar un aplicativo web que sirva como un canal informativo y colaborativo para los para que los alumnos de la Facultad de Ingeniería en Sistemas de la Escuela Politécnica Nacional encuentren respuestas a temas de interés, eventos, entre otros, de forma rápida y ágil, además que permita realizar denuncias de acoso de forma confidencial y que sean gestionadas por moderadores.
+
+Los moderadores del sistema, serán quienes estén a cargo de registrar las categorías, verificar que las preguntas realizadas en el sistema no violen las políticas y normativas de la Escuela Politécnica Nacional, y gestionar las denuncias de acoso realizadas en el sistema.
+
+## Especificaciones Funcionales
+
+La especificación funcional estará dividida en:
+
+1. Registro de usuario
+2. Autenticación
+3. Desbloqueo de usuario
+4. Registro de categorías
+5. Nueva pregunta
+6. Revisión de nuevas preguntas
+7. Visualizar preguntas
+8. Responder preguntas
+9. Perfil
+10. Denuncias
+11. Gestión de denuncias
+12. Registro de eventos
+13. Visualizar eventos
+
+## Actores del Sistema
+
+En cuanto a los actores, se especificarán los siguientes:
+
+- Administrador: Representa los actores encargados de configurar y ajustar los parámetros de funcionamiento de la plataforma.
+- Usuario: Será el actor que utiliza la plataforma.
+- Sistema: Representa al propio sistema.
+
+## Restricciones del Sistema
+
+En cuanto a las restricciones del sistema, tenemos las siguientes:
+
+- Los campos requeridos se identificarán con (*), si estos no son gestionados, el sistema mostrará un mensaje de error y no permitirá guardar o modificar el registro.
+- El sistema bloqueará el usuario después de 3 intentos de ingresos fallidos.
+- El sistema cuenta con roles como: Administrador, usuario.
+- El sistema debe de ser funcional en los navegadores más comunes.
+- El sistema debe de ser responsive (accesible y adaptable en todos los dispositivos: tablets, smartphones, etc.).
+- El acceso a cada página del aplicativo está determinado por el rol del usuario
 
 <div align="center"><img src="https://sites.google.com/site/ingresoalauniversidad124/_/rsrc/1381772602793/portada/AS-graduacion%20%285%29.png?height=250&width=320" height="100px"></div>
   
